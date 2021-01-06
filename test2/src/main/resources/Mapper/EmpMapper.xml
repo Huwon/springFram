@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="employee">
+	
+	
+	
+	
+	<select id="grpGetTeam" resultType="com.setup.test2.Model.TeamVO">
+		SELECT * FROM grp_team ORDER BY team_id  
+		<!--변수없어서 파라미터 타입은 없음  -->
+		
+	</select>
+	
+	<select id="grpGetGrade" resultType="com.setup.test2.Model.GradeVO">
+	   SELECT * FROM grp_grade ORDER BY grade_id  
+		
+	</select>
+</mapper>
