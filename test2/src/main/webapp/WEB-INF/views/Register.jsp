@@ -1,15 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>    
-<!DOCTYPE html>
-<head>
-	<title>** Entertainment</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="${pageContext.request.contextPath}/css/re_main.css" />
- <link rel="stylesheet" href="${pageContext.request.contextPath}/images/icons" />
- <script src="https://kit.fontawesome.com/62ab751ce0.js" crossorigin="anonymous"></script>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<%@ include file="/WEB-INF/views/include/Header.jsp" %> 
 
 <style>
 select{
